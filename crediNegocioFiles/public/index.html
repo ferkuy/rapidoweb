@@ -1,0 +1,1221 @@
+<!DOCTYPE html>
+<html lang="es-es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+    <!-- Theme tittle -->
+    <title>Rapido</title>
+
+    <!-- Theme style CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/bootstrap-slider.css" rel="stylesheet" type="text/css" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+                    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+                    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+                    <![endif]-->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143860558-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-143860558-2');
+    </script>
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1371085259739762');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" src="https://www.facebook.com/tr?id=1371085259739762&ev=PageView
+        &noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+
+</head>
+
+<body>
+    <!-- Header Area -->
+    <header id="mainHeader" class="main_header_area">
+        <div class="container-fluid">
+            <div class="header_menu">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/logo-rapido.png" alt="">
+                        <img src="images/logo-rapido.png" alt="">
+                    </a>
+                    <!-- Small Divice Menu-->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar_supported"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse navbar_supported">
+                        <ul class="navbar-nav">
+                            <li class="solicitarCredito">
+                                <a class="nav-link" href="#">Solicitar crédito</a>
+                            </li>
+                            <li class="nosotros">
+                                <a class="nav-link" href="#nosotros">Sobre nosotros</a>
+                            </li>
+                            <li class="nuestrosServicios">
+                                <a class="nav-link" href="#nuestrosServicios">Nuestros servicios</a>
+                            </li>
+                            <li class="sucursales">
+                                <a class="nav-link" href="#sucursales">Sucursales</a>
+                            </li>
+                            <li class="contacto">
+                                <a class="nav-link" href="#contacto">Contacto</a>
+                            </li>
+                            <li class="d-flex d-lg-none">
+                                <a class="nav-link" href="trabaja-con-nosotros.html">Trabaja con nosotros</a>
+                            </li>
+                            <li>
+                                <!-- Social -->
+                                <div class="social-links">
+                                    <ul>
+                                        <li>
+                                            <a href="https://api.whatsapp.com/send?phone=59899381633" target="_blank">
+                                                <i class="fa fa-whatsapp"></i>
+                                                <span>099 381 633</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="tel:08002395" class="info">
+                                                <i class="fa fa-phone"></i>
+                                                <span>0800 2395</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.facebook.com/rapido.com.uy/" target="_blank">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/rapido_creditos/" target="_blank">
+                                                <i class="fa fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- <li>
+                                    <a class="nav-link" href="trabaja-con-nosotros.html">Trabaja con nosotros</a>
+                                </li> -->
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Header Area -->
+
+    <!-- Floating btns -->
+    <ul class="floating-btns-menu d-none d-lg-flex">
+        <li class="active"><a id="btnPrestamosPersonales" href="#" class="theme_btn">Préstamos personales</a></li>
+        <li><a class="aCrediNegocio theme_btn" href="#">Credi Negocio</a></li>
+    </ul>
+
+    <!-- Banner Area -->
+    <section class="section_home" style="position: relative;">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel-img d-none d-lg-block"
+                        style="background-image: url('./images/carousel/Banner_Mapfre.jpg');"></div>
+                    <div class="carousel-img d-block d-lg-none"
+                        style="background-image: url('./images/carousel/Banner_Mapfre.jpg');"></div>
+                    <!-- <img src="./images/carousel/Banner_Mapfre.jpg" alt="" class="d-block d-lg-none"> -->
+                    <div class="content">
+                        <div class="container">
+                            <div class="title">
+                                <span>SOLICITÁ TU PRÉSTAMO</span>
+                                <br>
+                                <span>Y TE</span>
+                                <span class="yellow">REGALAMOS UN</span>
+                                <br>
+                                <span class="yellow">SEGURO DE $2400</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-img d-none d-lg-block"
+                        style="background-image: url('./images/carousel/banner-2.jpg');"></div>
+                    <div class="carousel-img d-block d-lg-none"
+                        style="background-image: url('./images/carousel/banner-2-mobile.jpg');"></div>
+                    <!-- <img src="./images/carousel/banner-2-txt.jpg" alt="" class="d-block d-lg-none"> -->
+                    <div class="content">
+                        <div class="container">
+                            <div class="title">
+                                <span class="yellow">Solicitá</span>
+                                <br>
+                                <span class="">tu crédito</span>
+                            </div>
+                            <div class="subtitle"><span class="yellow">¡y participá por una <br>camioneta!</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-img d-none d-lg-block"
+                        style="background-image: url('./images/carousel/banner-1-mobile.jpg');"></div>
+                    <div class="carousel-img d-block d-lg-none"
+                        style="background-image: url('./images/carousel/banner-1-mobile.jpg');"></div>
+                    <!-- <img src="./images/carousel/banner-3-txt.jpg" alt="" class="d-block d-lg-none"> -->
+                    <div class="content">
+                        <div class="container">
+                            <div class="title">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-img d-none d-lg-block"
+                        style="background-image: url('./images/carousel/Bnner-Verano.jpg');"></div>
+                    <div class="carousel-img d-block d-lg-none"
+                        style="background-image: url('./images/carousel/Bnner-Verano.jpg');"></div>
+                    <!-- <img src="./images/carousel/Bnner-Verano.jpg" alt="" class="d-block d-lg-none"> -->
+                    <div class="content">
+                        <div class="container">
+                            <div class="title">
+                                <span class="yellow">Estés</span>
+                                <br>
+                                <span class="">donde</span>
+                                <br>
+                                <span class="yellow">estés</span>
+                            </div>
+                            <div class="subtitle"><span class="">¡TU DINERO YA!</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Social -->
+        <div class="social-links">
+            <ul>
+                <li>
+                    <a href="https://api.whatsapp.com/send?phone=59899381633" target="_blank">
+                        <i class="fa fa-whatsapp"></i>
+                        <span>099 381 633</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="tel:08002395" class="info">
+                        <i class="fa fa-phone"></i>
+                        <span>0800 2395</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/rapido.com.uy/" target="_blank">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/rapido_creditos/" target="_blank">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="banner_area easy_cash_area" id="solicitarCredito">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col--1">
+                        <div id="formPrestamosPersonales" class="your_results">
+                            <div>
+                                <div class="tabs-btns">
+                                    <ul>
+                                        <li class="active"><a href="#">Préstamos personales</a></li>
+                                        <li><a class="aCrediNegocio" href="#">Credi Negocio</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="tittle la">
+                                    <h2 id="formPrestamosPersonalesTitle">
+                                        <span>Solicitá tu préstamo </span>
+                                    </h2>
+                                </div>
+
+                                <div class="select_from">
+                                    <h6 class="mt-3">Monto a Solicitar</h6>
+                                    <div class="colsliderange">
+                                        <span class="slideRangeValue">6.000</span>
+                                        <input id="monto" type="range" min="6000" max="150000" step="1000" value="6000"
+                                            oninput="montoChange(this.value)">
+                                        <span class="slideRangeValue slideRangeValueRight">150.000</span>
+                                    </div>
+                                </div>
+                                <div class="select_from mt-3">
+                                    <h6>Cantidad de Cuotas</h6>
+                                    <div class="colsliderange">
+                                        <span class="slideRangeValue">6</span>
+                                        <input id="cuotas" type="range" min="6" max="24" step="1" value="6"
+                                            oninput="cuotaChange(this.value)">
+                                        <span class="slideRangeValue slideRangeValueRight">24</span>
+                                    </div>
+                                </div>
+
+                                <div class="mt-4">
+                                    <div class="tittle">
+                                        <h3>
+                                            <span>Tu préstamo Rápido</span>
+                                        </h3>
+                                    </div>
+                                    <div class="prestamo-info mt-3">
+                                        <div class="col--1">
+                                            <div class="paid p_b">
+                                                <h4>Total
+                                                    <b id="bMonto" class="mt-3">$2.000</b>
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="col--2">
+                                            <div class="paid p_b">
+                                                <h4>Cuotas
+                                                    <b id="bCuotas" class="mt-3">20</b>
+                                                </h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="prestamo-info mt-3">
+                                        <div class="col--1">
+                                            <div class="paid p_b">
+                                                <h4>Monto
+                                                    <b id="montoForm" class="mt-3">$2.000</b>
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="col--2">
+                                            <div class="paid p_b" style="padding-top:10%">
+                                                <button id="btnLoadAmount" class="theme_btn mt-2">Calcular
+                                                    cuota</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a id="myBtn" href="#" class="theme_btn mt-3">Solicitar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close text-right" id="closeModal">&times;</span>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="your_results">
+                            <div class="tittle">
+                                <h2 class="be-blue">
+                                    <small>
+                                        Ingresá tus datos para solicitarlo y
+                                        <br class="d-none d-lg-block">
+                                        retiralo en la sucursal más cercana
+                                        <br>
+                                        <div class="frase-red">o cualquier <img src="images/logo-redpagos.png"
+                                                alt="Redpagos" class="logo-redpagos"></div>
+                                    </small>
+                                </h2>
+                            </div>
+                            <div class="mt-2 mb-4">
+                                <div class="col-sm-12 text-center">
+                                    <div class="data-solicitud">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-4 col">
+                                                <span class="label-val">Monto a solicitar:</span>
+                                                <br class="d-none d-lg-block">
+                                                <b id="bMontoModal" class="be-yellow">$2,000 </b>
+                                            </div>
+                                            <div class="col-12 col-lg-4 col mt-2 mt-lg-0">
+                                                <span class="label-val">Cuotas:</span>
+                                                <br class="d-none d-lg-block">
+                                                <b id="bCuotasModal" class="be-yellow">20 </b>
+                                            </div>
+                                            <div class="col-12 col-lg-4 col mt-2 mt-lg-0">
+                                                <span class="label-val">Monto por cuota:</span>
+                                                <br class="d-none d-lg-block">
+                                                <b id="bImporteCuota" class="be-yellow">Calculando...</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <form class="from_main" id="frmCreditRequest">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="creditName" name="creditName"
+                                            placeholder="Nombre" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="creditSurname" name="creditSurname"
+                                            placeholder="Apellido" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="creditCI" name="creditCI"
+                                            placeholder="Cédula de Identidad" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="creditEmail" name="creditEmail"
+                                            placeholder="e-Mail" required />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input type="number" class="form-control" id="creditPhone" name="creditPhone"
+                                            placeholder="* Télefono/Celular" required />
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input type="number" class="form-control" id="ingresos" name="ingresos"
+                                            placeholder="Ingresos mensuales" required />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <select name="crediDepartment" id="crediDepartment" class="custom-select">
+                                            <option value="4">Artigas</option>
+                                            <option value="2">Canelones</option>
+                                            <option value="5">Cerro Largo</option>
+                                            <option value="14">Colonia</option>
+                                            <option value="6">Durazno</option>
+                                            <option value="15">Flores</option>
+                                            <option value="7">Florida</option>
+                                            <option value="16">Lavalleja</option>
+                                            <option value="8">Maldonado</option>
+                                            <option value="1">Montevideo</option>
+                                            <option value="21">Paso de los Toros</option>
+                                            <option value="9">Paysandu</option>
+                                            <option value="17">Rio Negro</option>
+                                            <option value="10">Rivera</option>
+                                            <option value="18">Rocha</option>
+                                            <option value="11">Salto</option>
+                                            <option value="19">San Jose</option>
+                                            <option value="12">Soriano</option>
+                                            <option value="20">Tacuarembo</option>
+                                            <option value="13">Treinta y Tres</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group" id="pLoanClearing">
+                                        <p class="mb-2"> ¿Estás en el Clearing?
+                                            <span class="requiredClearing" aria-required="true"></span>
+                                        </p>
+                                        <div class="radio-inline">
+                                            <input type="radio" name="loan_clearing" id="loan_clearing_yes" value="S"
+                                                style="top: 3px !important;" required />
+                                            <label for="loan_clearing_yes">Si</label>
+                                        </div>
+                                        <div class="radio-inline">
+                                            <input type="radio" name="loan_clearing" id="loan_clearing_no" value="N"
+                                                style="top: 3px !important;" required />
+                                            <label for="loan_clearing_no">No</label>
+                                        </div>
+                                        <div class="radio-inline">
+                                            <input type="radio" name="loan_clearing" id="loan_clearing_dont_know"
+                                                value="N" style="top: 3px !important;" required />
+                                            <label for="loan_clearing_dont_know">No lo sé</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 ">
+                                <div class="checkbox">
+                                    <input type="checkbox" name="terms_and_conditions" id="terms_and_conditions"
+                                        required />
+                                    <label id="pTermsAndConditions" for="terms_and_conditions">Certifico que soy mayor
+                                        de 21 años, de haber leído y aceptado los
+                                        <a target="_blank" href="/terminos_y_condiciones">términos y condiciones
+                                        </a>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group mt-3">
+                                <label class="captchaRequired hideCaptchaRequired" id="lblCaptchaRequired">Captcha
+                                    requerido
+                                </label>
+                                <div id="captcha"></div>
+
+                            </div>
+                            <div class="col-md-12 ">
+                                <div class="form-group text-center mt-5">
+                                    <input type="button" class="btn" id="btnCreditRequest" value="Solicitar Efectivo" />
+                                    <div data-success-msg="Form submitted successfully."
+                                        data-error-msg="Messages Successfully"></div>
+                                </div>
+                                <div class="">
+                                    <img src="images/logo-rapido-2.png" alt="Rápido" class="logo-rapido">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modalCrediNegocio" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close text-right" id="closeCrediNegocio">&times;</span>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="your_results">
+                            <div class="tittle">
+                                <h2 class="be-blue">
+                                    <small>
+                                        Monto a solicitar
+                                    </small>
+                                </h2>
+                            </div>
+                        </div>
+                        <form class="from_main" id="frmCreditNegocioRequest">
+                            <div class="form-group">
+                                <div class="select_from">
+                                    <div class="colsliderange">
+                                        <span class="slideRangeCrediNegocioValue">20.000</span>
+                                        <input id="crediNegocioMonto" type="range" min="20000" max="500000" step="5000"
+                                            value="20000" oninput="montoCrediNegocioChange(this.value)">
+                                        <span class="slideRangeCrediNegocioValue slideRangeValueRight">500.000</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group mb-0">
+                                <div class="data-solicitud">
+                                    <div class="row">
+                                        <div class="col-12 col text-center">
+                                            <span class="label-val">Monto:</span>
+                                            <br>
+                                            <b id="bMontoCrediNegocio" class="be-yellow mt-3">$20.000</b>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group text-center bg-clearing">
+                                <div class="bg-clearing-img"></div>
+                                <div class="title-custom">¡No importa tu clearing!</div>
+                                <br>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="crediNegocioName"
+                                            name="crediNegocioName" placeholder="* Nombre" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="crediNegocioSurname"
+                                            name="crediNegocioSurname" placeholder="* Apellido" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="crediNegocioCI"
+                                            name="crediNegocioCI" placeholder="* Cédula de Identidad" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="crediNegocioEmail"
+                                            name="crediNegocioEmail" placeholder="* e-Mail" required />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="creditNegocioPhone"
+                                            name="crediNegocioPhone" placeholder="* Télefono/Celular" required />
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <select name="crediNegocioDepartment" id="crediNegocioDepartment"
+                                            class="custom-select">
+                                            <option value="-1" selected disabled hidden>* Localidad</option>
+                                            <option value="4">Artigas</option>
+                                            <option value="2">Canelones</option>
+                                            <option value="5">Cerro Largo</option>
+                                            <option value="14">Colonia</option>
+                                            <option value="6">Durazno</option>
+                                            <option value="15">Flores</option>
+                                            <option value="7">Florida</option>
+                                            <option value="16">Lavalleja</option>
+                                            <option value="8">Maldonado</option>
+                                            <option value="1">Montevideo</option>
+                                            <option value="21">Paso de los Toros</option>
+                                            <option value="9">Paysandu</option>
+                                            <option value="17">Rio Negro</option>
+                                            <option value="10">Rivera</option>
+                                            <option value="18">Rocha</option>
+                                            <option value="11">Salto</option>
+                                            <option value="19">San Jose</option>
+                                            <option value="12">Soriano</option>
+                                            <option value="20">Tacuarembo</option>
+                                            <option value="13">Treinta y Tres</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <input type="number" class="form-control" id="crediNegocioIngresos"
+                                            name="crediNegocioIngresos" placeholder="Ingresos mensuales" required />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text" id="inputGroupFileAddon02">Imagen</span>
+                                            </div>
+                                            <div class="custom-file">
+                                                <label id="casillaCrediNegocioFile" class="custom-file-label">Empresa,
+                                                    Oficina o Taller</label>
+                                                <input type="file" class="custom-file-input" id="crediNegocioFile"
+                                                    name="crediNegocioFile" accept="image/*">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <textarea class="form-control" id="crediNegocioTexto" name="crediNegocioTexto"
+                                    placeholder="Comentario..." required></textarea>
+                            </div>
+                            <!-- <div class="form-group mt-3">
+                                    <label class="captchaRequired hideCaptchaRequired" id="lblCaptchaCrediNegocioRequired">Captcha requerido
+                                    </label>
+                                    <div id="captchaCrediNegocio"></div>
+    
+                                </div> -->
+                            <div class="form-group text-center mt-3">
+                                <input type="button" class="btn" id="btnCrediNegocioRequest" value="Enviar Solicitud" />
+                                <div data-success-msg="Form submitted successfully."
+                                    data-error-msg="Messages Successfully"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modalSuccess" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close text-right" id="closeModalSuccess">&times;</span>
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="your_results">
+                            <div class="tittle">
+
+                                <h2 class="be-blue">
+                                    <div class="alert alert-danger" id="textResultTitle"></div>
+
+                                </h2>
+                            </div>
+                            <div>
+                                <div class="col-sm-12 text-center">
+                                    <div class="font24" id="textResultBody">
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Achieve your financial -->
+
+    <div id="nosotros">
+        <section class="achieve_financial_area achieve_financial_area_nosotros">
+            <div class="container previous_right">
+                <div class="tittle">
+
+                    <!-- <img src="images/icons/savings.png" alt=""> -->
+                    <h2>Sobre nosotros</h2>
+                </div>
+                <div class="row achieve_inner">
+                    <div class="col-lg-4 personal_tittle">
+                        <p>
+                            <b>
+                                <span>¿Qué es</span> Rápido?</b>
+                            Somos una empresa innovadora en tipos de créditos con 20 años de experiencia en todo el
+                            país.
+                        </p>
+                        <!-- <a href="#" class="theme_btn">All Personal Loans</a> -->
+                    </div>
+                    <div class="col-lg-4 personal_tittle">
+                        <p>
+                            <b>
+                                <span>¿Por qué</span> Rápido?</b>
+                            Porque somos la más rápida y segura en la entrega de dinero, con requisitos mínimos y pagos
+                            a tu medida.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 personal_tittle">
+                        <p>
+                            <b>
+                                <span>¿Qué hacemos en </span> Rápido?</b>
+                            Brindamos soluciones financieras acorde a cada cliente, de forma ágil y sencilla.
+                        </p>
+                    </div>
+                    <div class="projects_done row ">
+                        <div class="col-lg-3 col-6 counter_items">
+                            <h2>
+                                <span class="countera">18</span>
+                            </h2>
+                            <h4>SUCURSALES</h4>
+                        </div>
+                        <div class="col-lg-3 col-6 counter_items">
+                            <h2>
+                                <span class="countera">80</span>
+                            </h2>
+                            <h4>EMPLEADOS</h4>
+                        </div>
+                        <div class="col-lg-3 col-6 counter_items mt-3 mt-lg-0">
+                            <h2>
+                                <span class="countera">20</span>
+                            </h2>
+                            <h4>AÑOS DE EXPERIENCIA</h4>
+                        </div>
+                        <div class="col-lg-3  col-6 col- counter_items mt-3 mt-lg-0">
+                            <h2>$
+                                <span class="countera">400</span>M</h2>
+                            <h4>PRÉSTAMOS POR AÑO</h4>
+                        </div>
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Achieve your financial -->
+
+    <!-- Previous Record -->
+
+    <!-- Previous Record -->
+
+    <!-- Potential Area -->
+
+    <!-- Potential Area -->
+
+    <!-- Getting a Loan -->
+
+    <!-- End Getting a Loan -->
+
+
+    <!-- Application Process-->
+    <div class="application_process application_process_services" id="nuestrosServicios">
+        <div class="container">
+            <div class="tittle">
+                <h2>Nuestros servicios
+                    <span>Soluciones financieras</span>
+                </h2>
+            </div>
+            <div class="row">
+                <!-- Step -->
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.6s">
+                    <div class="step_item">
+                        <div class="panel-head">
+                            <div class="icon-rounded">
+                                <div><img src="images/icons/prestamo-personal.svg" alt=""></div>
+                            </div>
+                            <div>
+                                <h3>PRESTAMOS <br class="d-none d-lg-block"><span>PERSONALES</span></h3>
+                            </div>
+                        </div>
+                        <div class="text-subtitle">Requisitos mínimos <br>y pagos a medida</div>
+
+                        <!--    <a href="#show4" class="show btn" id="show4">Ver más</a>
+                                        <a href="#hide4" class="hide btn" id="hide4">Mostrar menos</a> -->
+                        <div class="panel">
+                            <p>En Rápido te damos más si tienes recibo de sueldo. Tenemos planes a medida para que
+                                puedas satisfacer
+                                de forma rápida tus necesidades.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Step -->
+                <div class="col-lg-6 wow fadeIn " data-wow-delay="0.6s">
+                    <div class="step_item">
+                        <div class="panel-head">
+                            <div class="icon-rounded">
+                                <div><img src="images/icons/credi-negocio.svg" alt=""></div>
+                            </div>
+                            <div>
+                                <h3>CREDI <br class="d-none d-lg-block"><span>NEGOCIO</span></h3>
+                            </div>
+                        </div>
+                        <div class="text-subtitle">Para pequeñas y <br> medianas empresas (PYMES)</div>
+
+                        <div class="panel">
+                            <p>Surge como un proyecto con el fin de satisfacer las necesidades financieras de empresas
+                                en desarrollo,
+                                incentivando su inclusión, crecimiento y consolidación a través de una atención
+                                diferencial
+                                con soluciones ágiles, oportunas, accesibles e innovadoras para lograr la mejor
+                                rentabilidad
+                                de su negocio.
+                            </p>
+
+                            <!-- <h4>Beneficios:</h4>
+                                    <ul>
+                                        Credi negocio está diseñado para que tu empresa este siempre en crecimiento, con mayor
+                                        rentabilidad para que puedas:
+                                        <li>
+                                            - Pagar impuestos en fecha
+                                        </li>
+                                        <li>
+                                            - Comprar mercadería con descuento
+                                        </li>
+                                        <li>
+                                            - Comprar herramientas de trabajo para una mayor productividad
+                                        </li>
+                                        <li>
+                                            - Ampliar tu negocio
+                                        </li>
+                                    </ul> -->
+                        </div>
+
+                        <!-- <a href="#show1" class="show btn" id="show1">Ver más</a>
+                                <a href="#hide1" class="hide btn" id="hide1">Mostrar menos</a> -->
+                    </div>
+                </div>
+                <!-- Step -->
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="step_item">
+                        <div class="panel-head">
+                            <div class="icon-rounded">
+                                <div><img src="images/icons/documents.svg" alt=""></div>
+                            </div>
+                            <div>
+                                <h3>COMPRA DE <br class="d-none d-lg-block"><span>DOCUMENTOS</span></h3>
+                            </div>
+                        </div>
+
+                        <div class="text-subtitle">Cambiamos tiempo <br>por dinero</div>
+
+                        <!-- Step -->
+                        <div class="panel">
+                            <p>Como empresa enfocada en dar soluciones financieras, tenemos la posibilidad de comprar
+                                cheques
+                                de terceros y financieras. A través de tu consulta idearemos el mejor plan de negocio
+                                adecuado
+                                a tus necesidades.
+                            </p>
+                        </div>
+
+                        <!-- <a href="#show2" class="show btn" id="show2">Ver más</a>
+                                <a href="#hide2" class="hide btn" id="hide2">Mostrar menos</a> -->
+                    </div>
+                </div>
+                <!-- Step -->
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.6s">
+                    <div class="step_item">
+                        <div class="panel-head">
+                            <div class="icon-rounded">
+                                <div><img src="images/icons/house.svg" alt=""></div>
+                            </div>
+                            <div>
+                                <h3>HIPOTECAS</h3>
+                            </div>
+                        </div>
+
+                        <div class="text-subtitle">El mejor negocio <br> hipotecario</div>
+                        <!-- <a href="#show3" class="show btn" id="show3">Ver más</a>
+                                        <a href="#hide3" class="hide btn" id="hide3">Mostrar menos</a>-->
+                        <div class="panel">
+                            <p>Contamos con los mejores planes y un excelente equipo para asesorarte. RAPIDO puede darte
+                                una
+                                solución ágil y más económica.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <section class="getting_loan_area gla_2">
+        <div class="bg-squares">
+            <div class="bg-square bg-square-blue bg-square-sm"></div>
+            <div class="bg-square bg-square-blue-light bg-square-md"></div>
+            <div class="bg-square bg-square-yellow bg-square-yellow2 bg-square-md"></div>
+            <div class="bg-square bg-square-yellow bg-square-lg" data-scroll-direction="up"></div>
+            <div class="bg-square bg-square-blue bg-square-blue2 bg-square-sm" data-scroll-direction="up"></div>
+        </div>
+
+        <div class="container">
+            <div class="row getting_inner">
+                <div class="col-12">
+                    <div class="tittle">
+                        <h2>Tu efectivo
+                            <span>Tres pasos simples</span>
+                        </h2>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row getting_inner">
+                <div class="col-lg-12 getting_first">
+                    <div class="steps-prestamo">
+                        <a href="#solicitarCredito" class="getting_items gi_f wow fadeInUp scrolltoelement">
+                            <span></span>
+                            <h3><strong>1.</strong> Elegí tu préstamo</h3>
+                            <p>Elegí el monto y las cuotas de tu crédito.</p>
+                        </a>
+                        <div class="getting_items wow fadeInUp" data-wow-delay="0.3s">
+                            <span class="fa fa-file-text-o"></span>
+                            <h3><strong>2.</strong> Llená tus datos</h3>
+                            <p> Responda algunas preguntas y obtenga sus tarifas más bajas al instante.</p>
+                        </div>
+
+                        <div class="getting_items wow fadeInUp" data-wow-delay="0.5s">
+                            <span></span>
+                            <h3><strong>3.</strong> Retirá tu préstamo</h3>
+                            <p>Pasá a retirar tu dinero por la sucursal más cercana o cualquier RedPagos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Application Process-->
+
+    <!-- Testimonial Area -->
+    <section class="achieve_financial_area achieve_financial_area_sucrusales" id="sucursales">
+        <div class="container">
+            <div class="tittle">
+                <h2>Sucursales</h2>
+            </div>
+            <div class="row achieve_inner">
+                <div class="col-12 personal_tittle">
+                    <p>Entendemos que el mejor servicio es con atención directa y personalizada, por eso, contamos con
+                        una amplia
+                        red de sucursales en todo el país. También sabemos que tu tiempo es importante y elegimos
+                        brindarte
+                        el mejor servicio a través de nuestra sucursal móvil.</p>
+                    <!-- <a href="#" class="theme_btn">All Personal Loans</a> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="mapouter">
+            <iframe
+                src="https://www.google.com/maps/d/embed?mid=18JTA2_NH8_qmfkrC5cfM4cYLmAjlugBS&ll=-32.46247909441568%2C-56.237850899999955&z=7"
+                width="640" height="480"></iframe>
+        </div>
+    </section>
+    <!-- End Testimonial Area -->
+
+    <!-- Contact info Area -->
+    <section class="contact_info application_process" id="contacto">
+        <div class="bg-anim-boxes">
+            <div id="bgAnimBoxes1" class="bg-anim-boxes__box bg-anim-boxes__box--1"></div>
+            <div id="bgAnimBoxes2" class="bg-anim-boxes__box bg-anim-boxes__box--2"></div>
+
+            <div class="bg-box-anim-holder bg-box-anim-holder-1">
+                <div class="bg-box-anim bg-box-anim-1"></div>
+            </div>
+            <div class="bg-box-anim-holder bg-box-anim-holder-2">
+                <div class="bg-box-anim bg-box-anim-2"></div>
+            </div>
+            <div class="bg-box-anim-holder bg-box-anim-holder-3">
+                <div class="bg-box-anim bg-box-anim-3"></div>
+            </div>
+            <div class="bg-box-anim-holder bg-box-anim-holder-4">
+                <div class="bg-box-anim bg-box-anim-4"></div>
+            </div>
+            <div class="bg-box-anim-holder bg-box-anim-holder-5">
+                <div class="bg-box-anim bg-box-anim-5"></div>
+            </div>
+            <div class="bg-box-anim-holder bg-box-anim-holder-6">
+                <div class="bg-box-anim bg-box-anim-6"></div>
+            </div>
+            <div class="bg-box-anim-holder bg-box-anim-holder-7">
+                <div class="bg-box-anim bg-box-anim-7"></div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="tittle contact">
+                <h2>Contacto</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3">
+                    <a href="tel:08002395" class="info">
+                        <i class="fa fa-phone"></i>
+                        <h6>
+                            <b>Oficina móvil</b>
+                            <br>0800 2395
+                        </h6>
+                    </a>
+                </div>
+                <div class="col-lg-3">
+                    <a class="info whatsapp" href="https://api.whatsapp.com/send?phone=59899381633" target="_blank">
+                        <i class="fa fa-whatsapp"></i>
+                        <h6>
+                            <b>WhatsApp</b>
+                            <br>099 381 633
+                        </h6>
+                    </a>
+                </div>
+                <div class="col-lg-3">
+                    <a href="mailto:contacto@rapido.com.uy" class="info mailto">
+                        <i class="fa fa-envelope"></i>
+                        <h6>
+                            <b>Correo</b>
+                            <br>contacto@rapido.com.uy
+                        </h6>
+                    </a>
+                </div>
+                <div class="col-lg-3">
+                    <a href="trabaja-con-nosotros.html" class="info trabaja">
+                        <i class="fa fa-briefcase"></i>
+                        <h6>
+                            <b>Trabaja</b>
+                            <br>con nosotros
+                        </h6>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End subscirbe_area -->
+    <!-- Footer Area -->
+    <footer class="footer_area">
+        <div class="container">
+            <div class="footer_inner row">
+                <div class="footer_widget col-xl-8 col-md-7 col-sm-5 wow fadeIn" data-wow-delay="0.2s">
+                    <p class="be-white">
+                        Préstamos personales en efectivo, con un monto mínimo de $4.000 pesos uruguayos y un monto
+                        máximo de $150.000 pesos uruguayos.
+                        El plazo mínimo de los préstamos es de 6 meses y como máximo 15 meses. TEA (Tasa Efectiva
+                        Anual):
+                        entre 61,65% y 133,78% (en funcion del monto y del plazo de cada préstamo). Gastos
+                        administrativos:
+                        Hasta 10 cuotas inclusive: [(40 UI + 8 UI * plazo) + IVA] / plazo. A partir de la cuota #11
+                        hasta
+                        la cuota #15: (120 UI + IVA)/ plazo. Seguro: 0,6% sobre saldo. Todos los costos, tasas y precios
+                        aquí detallados son a título informativo, no constituyen una oferta y pueden variar al momento
+                        de
+                        solicitarlos en función del análisis crediticio hecho respecto a cada cliente. Asimismo están
+                        sujetos
+                        a políticas de mercado y/o internas de la empresa.
+                    </p>
+                </div>
+                <div class="col-xl-4 col-md-5 col-sm-7 footer_logo wow fadeIn text-center mt-3 mt-sm-0">
+
+
+                    <a href="index.html">
+                        <img src="images/footer-big-logo-rapido.png" alt="">
+                    </a>
+                    <ul class="footer_social">
+                        <li>
+                            <a href="https://www.facebook.com/rapido.com.uy/" target="_blank"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/rapido_creditos/" target="_blank"></a>
+                        </li>
+                    </ul>
+                    <p>© 2019
+                        <a href="#">Rapido</a>. All rights reserved</p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer Area -->
+
+    <!-- Scroll Top Button -->
+    <button class="scroll-top">
+        <i class="fa fa-angle-double-up"></i>
+    </button>
+
+    <!-- Preloader -->
+    <!--<div class="preloader"></div>-->
+
+    <!-- jQuery v3.3.1 -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.paroller.min.js"></script>
+    <script src="js/lottie.min.js"></script>
+    <!-- Bootstrap v4.0.0 -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Rev slider js -->
+    <script src="vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script src="vendors/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="vendors/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="vendors/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="vendors/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="vendors/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="vendors/revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <!-- Extra Plugin -->
+    <script src="vendors/animate-css/wow.min.js"></script>
+    <script src="vendors/counterup/jquery.waypoints.min.js"></script>
+    <script src="vendors/counterup/jquery.counterup.min.js"></script>
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="vendors/bootstrap-selector/jquery.nice-select.min.js"></script>
+    <!-- Theme js / Custom js -->
+    <script src="js/theme.js"></script>
+    <script src="js/bootstrap-slider.min.js" type="text/javascript"></script>
+    <script>
+        // Btn prestamos personales desktop 
+        $('#btnPrestamosPersonales').click(function (e) {
+            e.preventDefault();
+
+            var scrollTo = $('#formPrestamosPersonales').offset().top - ($('#mainHeader').height() / 2);
+
+            $([document.documentElement, document.body]).animate({
+                scrollTop: scrollTo
+            }, 500);
+
+            setTimeout(function () {
+                $('#formPrestamosPersonalesTitle').addClass('blink-anim');
+                setTimeout(function () {
+                    $('#formPrestamosPersonalesTitle').removeClass('blink-anim');
+                }, 850);
+            }, 350);
+        });
+
+        // Scroll to element
+        $('.scrolltoelement').click(function (e) {
+            e.preventDefault();
+
+            var element = $($(this).attr('href'));
+
+            $([document.documentElement, document.body]).animate({
+                scrollTop: element.offset().top
+            }, 1000);
+        });
+
+        function cuotaChange(valueD) {
+            $("#bCuotas").text(valueD)
+            $("#bCuotasModal").text(valueD)
+        }
+
+        function montoChange(valueD) {
+            $("#bMonto").text("$ " + numSeparator(valueD))
+            $("#bMontoModal").text("$" + numSeparator(valueD))
+
+        }
+
+        function montoCrediNegocioChange(valueD) {
+            $("#bMontoCrediNegocio").text("$ " + numSeparator(valueD))
+            $("#bMontoCrediNegocioModal").text("$" + numSeparator(valueD))
+
+        }
+
+        function numSeparator(x) {
+            return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+        }
+
+        function goToId(idName) {
+            if ($("#" + idName).length) {
+                var target_offset = $("#" + idName).offset();
+                var target_top = target_offset.top;
+                $('html,body').animate({
+                    scrollTop: target_top
+                }, {
+                    duration: "slow"
+                });
+            }
+        }
+
+
+        $(document).ready(function () {
+            // Este evento se ejecuta cada vez que se pulsa una oción del menu
+            $(".navbar-nav li").click(function () {
+                // En el class del menu, se encuentra el nombre del id a donde
+                // desplazarnos
+                goToId($(this).attr('class'));
+            });
+        });
+    </script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

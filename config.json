@@ -1,0 +1,19 @@
+{
+    "mail": {
+        "host": "smtp.googlemail.com",
+        "port": "465",
+        "secure": true,
+        "auth": {
+            "user": "guifedenz@gmail.com",
+            "pass": "EnzoPuto"
+        },
+        "from": "guifedenz@gmail.com",
+        "to": "contacto@rapido.com.uy",
+        "subject": "Postulacion Web"
+    },
+    "rapiUrlWsdl" : "http://rapiflor.dnsalias.com:8080/WSTidimil/WSTidimilCobranza?wsdl",
+    "google" : {
+        "secret" : "6Lc6l7MUAAAAAB8SrCCiM1GBbj3IYFYeX3fZgdWj",
+        "public" : "6Lc6l7MUAAAAAAzCqGC4_AXmkMwN1h-_dU6ty9DC"
+    }
+}
