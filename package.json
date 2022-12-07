@@ -6,11 +6,11 @@
     "start": "nodemon index.js"
   },
   "dependencies": {
-    "body-parser": "~1.17.1",
+    "body-parser": "~1.20.1",
     "cookie-parser": "~1.4.3",
     "dateformat": "^3.0.3",
     "debug": "~2.6.3",
-    "express": "~4.15.2",
+    "express": "~4.15.5",
     "formidable": "^1.2.1",
     "jade": "~1.11.0",
     "mongoose": "^5.6.9",
